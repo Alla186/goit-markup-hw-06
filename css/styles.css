@@ -80,6 +80,7 @@ border-bottom: 1px solid #E7E9FC;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
  0px 1px 1px 0px rgba(46, 47, 66, 0.16),
   0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  padding: 16px 0;
 }
 @media screen and (min-width: 768px) {
     .header {
@@ -98,6 +99,7 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     align-items: center;
     flex-grow: 1;
     margin-right: auto;
+   
 }
 
 .header-list {
@@ -265,7 +267,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 max-width: 496px;
-margin: 0 auto;
+margin: 0 auto 72px;
 }
 
 @media screen and (min-width: 768px) {
@@ -563,20 +565,17 @@ justify-content: center;
 
 .hero-item {
     width: 100%;
-    border-radius: 0px 0px 4px 4px;
-
+   
 }
 @media only screen and (max-width: 1157.98px) {
-.hero-item {
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+ .hero-item {
+  box-shadow:0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
 }
 @media only screen and (min-width: 768px) {
-.hero-item {
-width: calc((100% - 24px) / 2);
+ .hero-item {
+  width: calc((100% - 24px) / 2);
 }
 }
 @media only screen and (min-width: 1158px) {
